@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+#colorBox {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  background-color: lightgray;
+  border-radius: 10px;
+  transition: background-color 0.5s;
+}
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: teal;
+  color: white;
+}
+button:hover {
+  background: darkcyan;
+}
